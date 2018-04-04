@@ -3,7 +3,7 @@ Feature: Having the ability to get a 10 day forecast for any state and city
 
   Background:
     Given Using the api for the '10day' forecast "http://api.wunderground.com/api/99a8db9a0f3c2e31/forecast10day/q/IL/Chicago.json" to get details to test
-@wip
+
   Scenario: I will confirm a response is received from our get request, and in the correct format
     When I confirm the status as 200 for the '10day' forecast
     Then I will confirm a response is received and formatted in a json format from my api call to the '10day' forecast api

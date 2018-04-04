@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2412226364,
+              "duration": 4062940093,
               "status": "passed"
             },
             "line": 5,
@@ -39,7 +39,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3109908,
+              "duration": 3203102,
               "status": "passed"
             },
             "line": 8,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 100265,
+              "duration": 109137,
               "status": "passed"
             },
             "line": 9,
@@ -66,12 +66,6 @@
               "location": "TenDayForecastStepdefs.iWillConfirmAResponseIsReceivedAndFormattedInAJsonFormatFromMyApiCallToTheDayForecastApi()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 6,
-            "name": "@wip"
           }
         ]
       },
@@ -84,7 +78,7 @@
         "steps": [
           {
             "result": {
-              "duration": 310711277,
+              "duration": 378354848,
               "status": "passed"
             },
             "line": 5,
@@ -112,7 +106,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1177759394,
+              "duration": 2165817356,
               "status": "passed"
             },
             "line": 12,
@@ -133,7 +127,7 @@
         "steps": [
           {
             "result": {
-              "duration": 440872010,
+              "duration": 697582617,
               "status": "passed"
             },
             "line": 5,
@@ -161,7 +155,7 @@
         "steps": [
           {
             "result": {
-              "duration": 580467,
+              "duration": 520301,
               "status": "passed"
             },
             "line": 15,
@@ -173,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 361462226,
+              "duration": 163354265,
               "status": "passed"
             },
             "line": 16,
@@ -210,7 +204,7 @@
         "steps": [
           {
             "result": {
-              "duration": 546495371,
+              "duration": 1463324091,
               "status": "passed"
             },
             "line": 5,
@@ -238,7 +232,7 @@
         "steps": [
           {
             "result": {
-              "duration": 968288,
+              "duration": 157732,
               "status": "passed"
             },
             "line": 8,
@@ -256,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 77211,
+              "duration": 67150,
               "status": "passed"
             },
             "line": 9,
@@ -277,7 +271,7 @@
         "steps": [
           {
             "result": {
-              "duration": 684114014,
+              "duration": 1009292410,
               "status": "passed"
             },
             "line": 5,
@@ -305,7 +299,7 @@
         "steps": [
           {
             "result": {
-              "duration": 723936113,
+              "duration": 518755719,
               "status": "passed"
             },
             "line": 12,
@@ -326,7 +320,7 @@
         "steps": [
           {
             "result": {
-              "duration": 599149766,
+              "duration": 1419184331,
               "status": "passed"
             },
             "line": 5,
@@ -354,7 +348,7 @@
         "steps": [
           {
             "result": {
-              "duration": 475242,
+              "duration": 530650,
               "status": "passed"
             },
             "line": 15,
@@ -366,7 +360,7 @@
           },
           {
             "result": {
-              "duration": 18488999,
+              "duration": 13329007,
               "status": "passed"
             },
             "line": 16,
@@ -403,7 +397,7 @@
         "steps": [
           {
             "result": {
-              "duration": 691842366,
+              "duration": 1921611791,
               "status": "passed"
             },
             "line": 5,
@@ -431,7 +425,7 @@
         "steps": [
           {
             "result": {
-              "duration": 171228,
+              "duration": 252887,
               "status": "passed"
             },
             "line": 8,
@@ -449,7 +443,7 @@
           },
           {
             "result": {
-              "duration": 59393,
+              "duration": 81409,
               "status": "passed"
             },
             "line": 9,
@@ -470,7 +464,7 @@
         "steps": [
           {
             "result": {
-              "duration": 497111236,
+              "duration": 835508793,
               "status": "passed"
             },
             "line": 5,
@@ -498,7 +492,7 @@
         "steps": [
           {
             "result": {
-              "duration": 445040633,
+              "duration": 408644918,
               "status": "passed"
             },
             "line": 12,
@@ -510,7 +504,7 @@
           },
           {
             "result": {
-              "duration": 118492,
+              "duration": 83251,
               "status": "passed"
             },
             "line": 13,
@@ -531,7 +525,7 @@
         "steps": [
           {
             "result": {
-              "duration": 780610275,
+              "duration": 882024259,
               "status": "passed"
             },
             "line": 5,
@@ -559,7 +553,7 @@
         "steps": [
           {
             "result": {
-              "duration": 713438337,
+              "duration": 312202053,
               "status": "passed"
             },
             "line": 16,
@@ -580,7 +574,7 @@
         "steps": [
           {
             "result": {
-              "duration": 602470060,
+              "duration": 1014738667,
               "status": "passed"
             },
             "line": 5,
@@ -608,7 +602,7 @@
         "steps": [
           {
             "result": {
-              "duration": 680977,
+              "duration": 1369561,
               "status": "passed"
             },
             "line": 19,
@@ -620,7 +614,7 @@
           },
           {
             "result": {
-              "duration": 44735692,
+              "duration": 26122492,
               "status": "passed"
             },
             "line": 20,
@@ -642,6 +636,199 @@
       {
         "line": 1,
         "name": "@hourly"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 981165451,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the webcams \"http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json",
+                  "offset": 31
+                }
+              ],
+              "location": "WebcamsStepdefs.usingTheApiForTheWebcamsToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "I will confirm a response is received from our get request, and in the correct format",
+        "description": "",
+        "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-will-confirm-a-response-is-received-from-our-get-request,-and-in-the-correct-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185474,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I confirm the status as 200 for the webcam response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "WebcamsStepdefs.iConfirmTheStatusAsForTheWebcamResponse(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122044,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will confirm the webcam response is received and formatted in a json format",
+            "match": {
+              "location": "WebcamsStepdefs.iWillConfirmTheWebcamResponseIsReceivedAndFormattedInAJsonFormat()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 706129103,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the webcams \"http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json",
+                  "offset": 31
+                }
+              ],
+              "location": "WebcamsStepdefs.usingTheApiForTheWebcamsToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "I will check to see if the response is in the correct schema",
+        "description": "",
+        "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-will-check-to-see-if-the-response-is-in-the-correct-schema",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 929938642,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I get the webcams I will compare it to the schema saved for this response",
+            "match": {
+              "location": "WebcamsStepdefs.iGetTheWebcamsIWillCompareItToTheSchemaSavedForThisResponse()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 496150885,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the webcams \"http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json",
+                  "offset": 31
+                }
+              ],
+              "location": "WebcamsStepdefs.usingTheApiForTheWebcamsToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "I want to confirm the correct number on entities are in the response",
+        "description": "",
+        "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-want-to-confirm-the-correct-number-on-entities-are-in-the-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1620839,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I get the webcam response, I will convert it to a String",
+            "match": {
+              "location": "WebcamsStepdefs.iGetTheWebcamResponseIWillConvertItToAString()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27914033,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will convert the string into an array where I can assert the correct number of entities in the webcam response",
+            "match": {
+              "location": "WebcamsStepdefs.iWillConvertTheStringIntoAnArrayWhereICanAssertTheCorrectNumberOfEntitiesInTheWebcamResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Having the ability to get forecast details on an hourly bases for any state and city",
+    "description": "",
+    "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city",
+    "keyword": "Feature",
+    "uri": "webcamera.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@webcams"
       }
     ]
   }

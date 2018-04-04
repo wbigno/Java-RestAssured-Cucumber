@@ -1,0 +1,36 @@
+{
+  "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "webcams": 1
+    }
+  }
+,	"webcams": [
+  {
+    "handle": "string",
+    "camid": "string",
+    "camindex": "string",
+    "assoc_station_id": "string",
+    "link": "string",
+    "linktext": "Fstring",
+    "cameratype": "string",
+    "organization": "string",
+    "neighborhood": "string)",
+    "zip": "string",
+    "city": "string",
+    "state": "string",
+    "country": "string",
+    "tzname": "string",
+    "lat": "string",
+    "lon": "string",
+    "updated": "string",
+    "updated_epoch": "string",
+    "downloaded": "string",
+    "isrecent": "string",
+    "CURRENTIMAGEURL": "string",
+    "WIDGETCURRENTIMAGEURL": "string",
+    "CAMURL": "string"
+    }
+  ]
+}

@@ -34,7 +34,7 @@ formatter.match({
   "location": "TenDayForecastStepdefs.usingTheApiForTheDayForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 2412226364,
+  "duration": 4062940093,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,13 +43,7 @@ formatter.scenario({
   "description": "",
   "id": "having-the-ability-to-get-a-10-day-forecast-for-any-state-and-city;i-will-confirm-a-response-is-received-from-our-get-request,-and-in-the-correct-format",
   "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@wip"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 8,
@@ -71,14 +65,14 @@ formatter.match({
   "location": "TenDayForecastStepdefs.iConfirmTheStatusAsForTheDayForecast(int)"
 });
 formatter.result({
-  "duration": 3109908,
+  "duration": 3203102,
   "status": "passed"
 });
 formatter.match({
   "location": "TenDayForecastStepdefs.iWillConfirmAResponseIsReceivedAndFormattedInAJsonFormatFromMyApiCallToTheDayForecastApi()"
 });
 formatter.result({
-  "duration": 100265,
+  "duration": 109137,
   "status": "passed"
 });
 formatter.background({
@@ -103,7 +97,7 @@ formatter.match({
   "location": "TenDayForecastStepdefs.usingTheApiForTheDayForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 310711277,
+  "duration": 378354848,
   "status": "passed"
 });
 formatter.scenario({
@@ -123,7 +117,7 @@ formatter.match({
   "location": "TenDayForecastStepdefs.iGetTheDayForecastIWillCompareItToTheSchemaSavedForThisResponse()"
 });
 formatter.result({
-  "duration": 1177759394,
+  "duration": 2165817356,
   "status": "passed"
 });
 formatter.background({
@@ -148,7 +142,7 @@ formatter.match({
   "location": "TenDayForecastStepdefs.usingTheApiForTheDayForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 440872010,
+  "duration": 697582617,
   "status": "passed"
 });
 formatter.scenario({
@@ -173,14 +167,14 @@ formatter.match({
   "location": "TenDayForecastStepdefs.iGetTheDayForecastResponseIWillConvertItToAString()"
 });
 formatter.result({
-  "duration": 580467,
+  "duration": 520301,
   "status": "passed"
 });
 formatter.match({
   "location": "TenDayForecastStepdefs.iWillConvertTheStringIntoAnArrayWhereICanAssertTheCorrectNumberOfDayForecastEntitiesAreInTheResponse()"
 });
 formatter.result({
-  "duration": 361462226,
+  "duration": 163354265,
   "status": "passed"
 });
 formatter.uri("geolookup.feature");
@@ -219,7 +213,7 @@ formatter.match({
   "location": "GeoLocationStepdefs.usingTheApiForTheGeolocationForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 546495371,
+  "duration": 1463324091,
   "status": "passed"
 });
 formatter.scenario({
@@ -250,14 +244,14 @@ formatter.match({
   "location": "GeoLocationStepdefs.iConfirmTheStatusAsForTheGeolocation(int)"
 });
 formatter.result({
-  "duration": 968288,
+  "duration": 157732,
   "status": "passed"
 });
 formatter.match({
   "location": "GeoLocationStepdefs.iWillConfirmAResponseIsReceivedAndFormattedInAJsonFormatFromMyApiCallToTheGeolocationApi()"
 });
 formatter.result({
-  "duration": 77211,
+  "duration": 67150,
   "status": "passed"
 });
 formatter.background({
@@ -282,7 +276,7 @@ formatter.match({
   "location": "GeoLocationStepdefs.usingTheApiForTheGeolocationForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 684114014,
+  "duration": 1009292410,
   "status": "passed"
 });
 formatter.scenario({
@@ -302,7 +296,7 @@ formatter.match({
   "location": "GeoLocationStepdefs.iGetTheGeolocationIWillCompareItToTheSchemaSavedForThisResponse()"
 });
 formatter.result({
-  "duration": 723936113,
+  "duration": 518755719,
   "status": "passed"
 });
 formatter.background({
@@ -327,7 +321,7 @@ formatter.match({
   "location": "GeoLocationStepdefs.usingTheApiForTheGeolocationForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 599149766,
+  "duration": 1419184331,
   "status": "passed"
 });
 formatter.scenario({
@@ -352,14 +346,14 @@ formatter.match({
   "location": "GeoLocationStepdefs.iGetTheGeolocationResponseIWillConvertItToAString()"
 });
 formatter.result({
-  "duration": 475242,
+  "duration": 530650,
   "status": "passed"
 });
 formatter.match({
   "location": "GeoLocationStepdefs.iWillConvertTheStringIntoAnArrayWhereICanAssertTheCorrectNumberOfGeolocationEntitiesAreInTheResponse()"
 });
 formatter.result({
-  "duration": 18488999,
+  "duration": 13329007,
   "status": "passed"
 });
 formatter.uri("hourly.feature");
@@ -398,7 +392,7 @@ formatter.match({
   "location": "HourlyStepdefs.UsingTheApiForTheHourlyForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 691842366,
+  "duration": 1921611791,
   "status": "passed"
 });
 formatter.scenario({
@@ -429,14 +423,14 @@ formatter.match({
   "location": "HourlyStepdefs.iConfirmTheStatusAs(int)"
 });
 formatter.result({
-  "duration": 171228,
+  "duration": 252887,
   "status": "passed"
 });
 formatter.match({
   "location": "HourlyStepdefs.iWillConfirmAResponseIsReceivedAndFormattedInAJsonFormat()"
 });
 formatter.result({
-  "duration": 59393,
+  "duration": 81409,
   "status": "passed"
 });
 formatter.background({
@@ -461,7 +455,7 @@ formatter.match({
   "location": "HourlyStepdefs.UsingTheApiForTheHourlyForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 497111236,
+  "duration": 835508793,
   "status": "passed"
 });
 formatter.scenario({
@@ -486,14 +480,14 @@ formatter.match({
   "location": "HourlyStepdefs.iGetTheWindchillAndTheFeelslikeReadingsToCompareThem()"
 });
 formatter.result({
-  "duration": 445040633,
+  "duration": 408644918,
   "status": "passed"
 });
 formatter.match({
   "location": "HourlyStepdefs.iWillConfirmThatTheMatch()"
 });
 formatter.result({
-  "duration": 118492,
+  "duration": 83251,
   "status": "passed"
 });
 formatter.background({
@@ -518,7 +512,7 @@ formatter.match({
   "location": "HourlyStepdefs.UsingTheApiForTheHourlyForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 780610275,
+  "duration": 882024259,
   "status": "passed"
 });
 formatter.scenario({
@@ -538,7 +532,7 @@ formatter.match({
   "location": "HourlyStepdefs.iGetTheHourlyForecastIWillCompareItToTheSchemaSavedForThisResponse()"
 });
 formatter.result({
-  "duration": 713438337,
+  "duration": 312202053,
   "status": "passed"
 });
 formatter.background({
@@ -563,7 +557,7 @@ formatter.match({
   "location": "HourlyStepdefs.UsingTheApiForTheHourlyForecastToGetDetailsToTest(String)"
 });
 formatter.result({
-  "duration": 602470060,
+  "duration": 1014738667,
   "status": "passed"
 });
 formatter.scenario({
@@ -588,14 +582,193 @@ formatter.match({
   "location": "HourlyStepdefs.iGetTheResponseIWillConvertItToAString()"
 });
 formatter.result({
-  "duration": 680977,
+  "duration": 1369561,
   "status": "passed"
 });
 formatter.match({
   "location": "HourlyStepdefs.iWillConvertTheStringIntoAnArrayWhereICanAssertTheCorrectNumberOfEntitiesInTheResponse()"
 });
 formatter.result({
-  "duration": 44735692,
+  "duration": 26122492,
+  "status": "passed"
+});
+formatter.uri("webcamera.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Having the ability to get forecast details on an hourly bases for any state and city",
+  "description": "",
+  "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@webcams"
+    }
+  ]
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "Using the api for the webcams \"http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json\" to get details to test",
+  "keyword": "Given "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json",
+      "offset": 31
+    }
+  ],
+  "location": "WebcamsStepdefs.usingTheApiForTheWebcamsToGetDetailsToTest(String)"
+});
+formatter.result({
+  "duration": 981165451,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 7,
+  "name": "I will confirm a response is received from our get request, and in the correct format",
+  "description": "",
+  "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-will-confirm-a-response-is-received-from-our-get-request,-and-in-the-correct-format",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 8,
+  "name": "I confirm the status as 200 for the webcam response",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "I will confirm the webcam response is received and formatted in a json format",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "200",
+      "offset": 24
+    }
+  ],
+  "location": "WebcamsStepdefs.iConfirmTheStatusAsForTheWebcamResponse(int)"
+});
+formatter.result({
+  "duration": 185474,
+  "status": "passed"
+});
+formatter.match({
+  "location": "WebcamsStepdefs.iWillConfirmTheWebcamResponseIsReceivedAndFormattedInAJsonFormat()"
+});
+formatter.result({
+  "duration": 122044,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "Using the api for the webcams \"http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json\" to get details to test",
+  "keyword": "Given "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json",
+      "offset": 31
+    }
+  ],
+  "location": "WebcamsStepdefs.usingTheApiForTheWebcamsToGetDetailsToTest(String)"
+});
+formatter.result({
+  "duration": 706129103,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 11,
+  "name": "I will check to see if the response is in the correct schema",
+  "description": "",
+  "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-will-check-to-see-if-the-response-is-in-the-correct-schema",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 12,
+  "name": "I get the webcams I will compare it to the schema saved for this response",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "WebcamsStepdefs.iGetTheWebcamsIWillCompareItToTheSchemaSavedForThisResponse()"
+});
+formatter.result({
+  "duration": 929938642,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "Using the api for the webcams \"http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json\" to get details to test",
+  "keyword": "Given "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/webcams/q/IL/Chicago.json",
+      "offset": 31
+    }
+  ],
+  "location": "WebcamsStepdefs.usingTheApiForTheWebcamsToGetDetailsToTest(String)"
+});
+formatter.result({
+  "duration": 496150885,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "I want to confirm the correct number on entities are in the response",
+  "description": "",
+  "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-want-to-confirm-the-correct-number-on-entities-are-in-the-response",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 15,
+  "name": "I get the webcam response, I will convert it to a String",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 16,
+  "name": "I will convert the string into an array where I can assert the correct number of entities in the webcam response",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "WebcamsStepdefs.iGetTheWebcamResponseIWillConvertItToAString()"
+});
+formatter.result({
+  "duration": 1620839,
+  "status": "passed"
+});
+formatter.match({
+  "location": "WebcamsStepdefs.iWillConvertTheStringIntoAnArrayWhereICanAssertTheCorrectNumberOfEntitiesInTheWebcamResponse()"
+});
+formatter.result({
+  "duration": 27914033,
   "status": "passed"
 });
 });
