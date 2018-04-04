@@ -1,0 +1,65 @@
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "geolookup": 1
+    }
+  },
+  "location": {
+    "type": "CITY",
+    "country": "US",
+    "country_iso3166": "US",
+    "country_name": "USA",
+    "state": "string",
+    "city": "string",
+    "tz_short": "string",
+    "tz_long": "string",
+    "lat": "integer",
+    "lon": "integer",
+    "zip": "integer",
+    "magic": "integer",
+    "wmo": "integer",
+    "l": "integer",
+    "requesturl": "string",
+    "wuiurl": "string",
+    "nearby_weather_stations": {
+      "airport": {
+        "station": [
+          {
+            "city": "string",
+            "state": "string",
+            "country": "string",
+            "icao": "string",
+            "lat": "integer",
+            "lon": "integer"
+          },
+          {
+            "city": "string",
+            "state": "string",
+            "country": "string",
+            "icao": "string",
+            "lat": "integer",
+            "lon": "integer"
+          },
+          {
+            "city": "string",
+            "state": "string",
+            "country": "string",
+            "icao": "string",
+            "lat": "integer",
+            "lon": "integer"
+          },
+          {
+            "city": "string",
+            "state": "string",
+            "country": "string",
+            "icao": "string",
+            "lat": "integer",
+            "lon": "integer"
+          }
+        ]
+      }
+    }
+  }
+}

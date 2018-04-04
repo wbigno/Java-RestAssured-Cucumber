@@ -1,0 +1,105 @@
+
+{
+  "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast10day": 1
+    }
+  }
+,
+  "forecast":{
+    "txt_forecast": {
+      "date":"string",
+      "forecastday": [
+        {
+          "period":"integer",
+          "icon":"string",
+          "icon_url":"string",
+          "title":"string",
+          "fcttext":"string",
+          "fcttext_metric":"string",
+          "pop":"string"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {
+          "date": {
+            "epoch": "string",
+            "pretty": "string",
+            "day": "integer",
+            "month": "integer",
+            "year": "integer",
+            "yday": "integer",
+            "hour": "integer",
+            "min": "string",
+            "sec": "integer",
+            "isdst": "string",
+            "monthname": "string",
+            "monthname_short": "string",
+            "weekday_short": "string",
+            "weekday": "string",
+            "ampm": "string",
+            "tz_short": "string",
+            "tz_long": "string"
+          },
+          "period": "integer",
+          "high": {
+            "fahrenheit": "string",
+            "celsius": "string"
+          },
+          "low": {
+            "fahrenheit": "string",
+            "celsius": "string"
+          },
+          "conditions": "string",
+          "icon": "string",
+          "icon_url": "string",
+          "skyicon": "",
+          "pop": "integer",
+          "qpf_allday": {
+            "in": "integer",
+            "mm": "integer"
+          },
+          "qpf_day": {
+            "in": "integer",
+            "mm": "integer"
+          },
+          "qpf_night": {
+            "in": "integer",
+            "mm": "integer"
+          },
+          "snow_allday": {
+            "in": "integer",
+            "cm": "integer"
+          },
+          "snow_day": {
+            "in": "integer",
+            "cm": "integer"
+          },
+          "snow_night": {
+            "in": "integer",
+            "cm": "integer"
+          },
+          "maxwind": {
+            "mph": "integer",
+            "kph": "integer",
+            "dir": "string",
+            "degrees": "integer"
+          },
+          "avewind": {
+            "mph": "integer",
+            "kph": "integer",
+            "dir": "string",
+            "degrees": "integer"
+          },
+          "avehumidity": "integer",
+          "maxhumidity": "integer",
+          "minhumidity": "integer"
+        }
+      ]
+    }
+  }
+}

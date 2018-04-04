@@ -1,0 +1,648 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2412226364,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the \u002710day\u0027 forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/forecast10day/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/forecast10day/q/IL/Chicago.json",
+                  "offset": 40
+                }
+              ],
+              "location": "TenDayForecastStepdefs.usingTheApiForTheDayForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "I will confirm a response is received from our get request, and in the correct format",
+        "description": "",
+        "id": "having-the-ability-to-get-a-10-day-forecast-for-any-state-and-city;i-will-confirm-a-response-is-received-from-our-get-request,-and-in-the-correct-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3109908,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I confirm the status as 200 for the \u002710day\u0027 forecast",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "TenDayForecastStepdefs.iConfirmTheStatusAsForTheDayForecast(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100265,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will confirm a response is received and formatted in a json format from my api call to the \u002710day\u0027 forecast api",
+            "match": {
+              "location": "TenDayForecastStepdefs.iWillConfirmAResponseIsReceivedAndFormattedInAJsonFormatFromMyApiCallToTheDayForecastApi()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 310711277,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the \u002710day\u0027 forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/forecast10day/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/forecast10day/q/IL/Chicago.json",
+                  "offset": 40
+                }
+              ],
+              "location": "TenDayForecastStepdefs.usingTheApiForTheDayForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "I will check to see if the response is in the correct schema",
+        "description": "",
+        "id": "having-the-ability-to-get-a-10-day-forecast-for-any-state-and-city;i-will-check-to-see-if-the-response-is-in-the-correct-schema",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1177759394,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I get the \u002710day\u0027 forecast I will compare it to the schema saved for this response",
+            "match": {
+              "location": "TenDayForecastStepdefs.iGetTheDayForecastIWillCompareItToTheSchemaSavedForThisResponse()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 440872010,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the \u002710day\u0027 forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/forecast10day/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/forecast10day/q/IL/Chicago.json",
+                  "offset": 40
+                }
+              ],
+              "location": "TenDayForecastStepdefs.usingTheApiForTheDayForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "I want to confirm the correct number on entities are in the response",
+        "description": "",
+        "id": "having-the-ability-to-get-a-10-day-forecast-for-any-state-and-city;i-want-to-confirm-the-correct-number-on-entities-are-in-the-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 580467,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I get the \u002710day\u0027 forecast response, I will convert it to a String",
+            "match": {
+              "location": "TenDayForecastStepdefs.iGetTheDayForecastResponseIWillConvertItToAString()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361462226,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will convert the string into an array where I can assert the correct number of \u002710day\u0027 forecast entities are in the response",
+            "match": {
+              "location": "TenDayForecastStepdefs.iWillConvertTheStringIntoAnArrayWhereICanAssertTheCorrectNumberOfDayForecastEntitiesAreInTheResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Having the ability to get a 10 day forecast for any state and city",
+    "description": "",
+    "id": "having-the-ability-to-get-a-10-day-forecast-for-any-state-and-city",
+    "keyword": "Feature",
+    "uri": "10dayForecast.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@10day"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 546495371,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the geolocation forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/geolookup/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/geolookup/q/IL/Chicago.json",
+                  "offset": 44
+                }
+              ],
+              "location": "GeoLocationStepdefs.usingTheApiForTheGeolocationForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "I will confirm a response is received from our get request, and in the correct format",
+        "description": "",
+        "id": "having-the-ability-to-get-geo-location-details-on-any-state-and-city;i-will-confirm-a-response-is-received-from-our-get-request,-and-in-the-correct-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 968288,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I confirm the status as 200 for the geolocation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "GeoLocationStepdefs.iConfirmTheStatusAsForTheGeolocation(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77211,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will confirm a response is received and formatted in a json format from my api call to the geolocation api",
+            "match": {
+              "location": "GeoLocationStepdefs.iWillConfirmAResponseIsReceivedAndFormattedInAJsonFormatFromMyApiCallToTheGeolocationApi()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 684114014,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the geolocation forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/geolookup/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/geolookup/q/IL/Chicago.json",
+                  "offset": 44
+                }
+              ],
+              "location": "GeoLocationStepdefs.usingTheApiForTheGeolocationForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "I will check to see if the response is in the correct schema",
+        "description": "",
+        "id": "having-the-ability-to-get-geo-location-details-on-any-state-and-city;i-will-check-to-see-if-the-response-is-in-the-correct-schema",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 723936113,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I get the geolocation I will compare it to the schema saved for this response",
+            "match": {
+              "location": "GeoLocationStepdefs.iGetTheGeolocationIWillCompareItToTheSchemaSavedForThisResponse()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 599149766,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the geolocation forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/geolookup/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/geolookup/q/IL/Chicago.json",
+                  "offset": 44
+                }
+              ],
+              "location": "GeoLocationStepdefs.usingTheApiForTheGeolocationForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "I want to confirm the correct number on entities are in the response",
+        "description": "",
+        "id": "having-the-ability-to-get-geo-location-details-on-any-state-and-city;i-want-to-confirm-the-correct-number-on-entities-are-in-the-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 475242,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I get the geolocation response, I will convert it to a String",
+            "match": {
+              "location": "GeoLocationStepdefs.iGetTheGeolocationResponseIWillConvertItToAString()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18488999,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will convert the string into an array where I can assert the correct number of geolocation entities are in the response",
+            "match": {
+              "location": "GeoLocationStepdefs.iWillConvertTheStringIntoAnArrayWhereICanAssertTheCorrectNumberOfGeolocationEntitiesAreInTheResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Having the ability to get geo location details on any state and city",
+    "description": "",
+    "id": "having-the-ability-to-get-geo-location-details-on-any-state-and-city",
+    "keyword": "Feature",
+    "uri": "geolookup.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@geo"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 691842366,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the hourly forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/hourly/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/hourly/q/IL/Chicago.json",
+                  "offset": 39
+                }
+              ],
+              "location": "HourlyStepdefs.UsingTheApiForTheHourlyForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "I will confirm a response is received from our get request, and in the correct format",
+        "description": "",
+        "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-will-confirm-a-response-is-received-from-our-get-request,-and-in-the-correct-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171228,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I confirm the status as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "HourlyStepdefs.iConfirmTheStatusAs(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59393,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will confirm a response is received and formatted in a json format",
+            "match": {
+              "location": "HourlyStepdefs.iWillConfirmAResponseIsReceivedAndFormattedInAJsonFormat()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 497111236,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the hourly forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/hourly/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/hourly/q/IL/Chicago.json",
+                  "offset": 39
+                }
+              ],
+              "location": "HourlyStepdefs.UsingTheApiForTheHourlyForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "I will confirm the windchill and feelslike readings match in the response",
+        "description": "",
+        "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-will-confirm-the-windchill-and-feelslike-readings-match-in-the-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 445040633,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I get the windchill and the feelslike readings to compare them",
+            "match": {
+              "location": "HourlyStepdefs.iGetTheWindchillAndTheFeelslikeReadingsToCompareThem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118492,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I will confirm that the match",
+            "match": {
+              "location": "HourlyStepdefs.iWillConfirmThatTheMatch()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 780610275,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the hourly forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/hourly/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/hourly/q/IL/Chicago.json",
+                  "offset": 39
+                }
+              ],
+              "location": "HourlyStepdefs.UsingTheApiForTheHourlyForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "I will check to see if the response is in the correct schema",
+        "description": "",
+        "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-will-check-to-see-if-the-response-is-in-the-correct-schema",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 713438337,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get the hourly forecast I will compare it to the schema saved for this response",
+            "match": {
+              "location": "HourlyStepdefs.iGetTheHourlyForecastIWillCompareItToTheSchemaSavedForThisResponse()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 602470060,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the api for the hourly forecast \"http://api.wunderground.com/api/99a8db9a0f3c2e31/hourly/q/IL/Chicago.json\" to get details to test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://api.wunderground.com/api/99a8db9a0f3c2e31/hourly/q/IL/Chicago.json",
+                  "offset": 39
+                }
+              ],
+              "location": "HourlyStepdefs.UsingTheApiForTheHourlyForecastToGetDetailsToTest(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "I want to confirm the correct number on entities are in the response",
+        "description": "",
+        "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city;i-want-to-confirm-the-correct-number-on-entities-are-in-the-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 680977,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I get the response, I will convert it to a String",
+            "match": {
+              "location": "HourlyStepdefs.iGetTheResponseIWillConvertItToAString()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44735692,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I will convert the string into an array where I can assert the correct number of entities in the response",
+            "match": {
+              "location": "HourlyStepdefs.iWillConvertTheStringIntoAnArrayWhereICanAssertTheCorrectNumberOfEntitiesInTheResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Having the ability to get forecast details on an hourly bases for any state and city",
+    "description": "",
+    "id": "having-the-ability-to-get-forecast-details-on-an-hourly-bases-for-any-state-and-city",
+    "keyword": "Feature",
+    "uri": "hourly.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@hourly"
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "hourly": 1
+    }
+  },
+  "hourly_forecast": [
+    {
+      "FCTTIME": {
+        "hour": "integer",
+        "hour_padded": "integer",
+        "min": "integer",
+        "min_unpadded": "integer",
+        "sec": "integer",
+        "year": "integer",
+        "mon": "integer",
+        "mon_padded": "integer",
+        "mon_abbrev": "string",
+        "mday": "integer",
+        "mday_padded": "integer",
+        "yday": "integer",
+        "isdst": "integer",
+        "epoch": "integer",
+        "pretty": "string",
+        "civil": "string",
+        "Amonth_name": "string",
+        "month_name_abbrev": "string",
+        "weekday_name": "string",
+        "weekday_name_night": "string",
+        "weekday_name_abbrev": "string",
+        "weekday_name_unlang": "string",
+        "weekday_name_night_unlang": "string",
+        "ampm": "string",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "integer",
+        "metric": "integer"
+      },
+      "dewpoint": {
+        "english": "integer",
+        "metric": "integer"
+      },
+      "condition": "string",
+      "icon": "string",
+      "icon_url": "string",
+      "fctcode": "integer",
+      "sky": "integer",
+      "wspd": {
+        "english": "integer",
+        "metric": "integer"
+      },
+      "wdir": {
+        "dir": "string",
+        "degrees": "integer"
+      },
+      "wx": "string",
+      "uvi": "integer",
+      "humidity": "integer",
+      "windchill": {
+        "english": "integer",
+        "metric": "integer"
+      },
+      "heatindex": {
+        "english": "integer",
+        "metric": "integer"
+      },
+      "feelslike": {
+        "english": "integer",
+        "metric": "integer"
+      },
+      "qpf": {
+        "english": "double",
+        "metric": "integer"
+      },
+      "snow": {
+        "english": "double",
+        "metric": "integer"
+      },
+      "pop": "integer",
+      "mslp": {
+        "english": "double",
+        "metric": "integer"
+      }
+    },
